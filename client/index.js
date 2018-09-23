@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './style/style.css';
+import './style/main.less';
 const App = () => {
-  return <div>Hello World</div>
+  return (
+  <div className="container">
+    <h1>Site title</h1>
+  
+  </div>
+  
+  )
 }
 ReactDOM.render(
   <App />,
