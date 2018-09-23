@@ -5,9 +5,9 @@ import LiveReloadPlugin from 'webpack-livereload-plugin'
 export default  {
     entry: './client/index.js',
     output: {
-        path: '/',
-        filename: 'bundle.js'
-    },
+		path: __dirname + "/dist",
+		filename: "bundle.js"
+	},
     module: {
         rules: [{
             use: 'babel-loader',
