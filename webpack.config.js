@@ -3,7 +3,6 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import LiveReloadPlugin from 'webpack-livereload-plugin'
 
 export default  {
-    
     mode: 'development',
     entry: './client/index.js',
     output: {
